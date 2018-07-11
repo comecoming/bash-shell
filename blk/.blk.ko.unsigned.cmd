@@ -1,0 +1,1 @@
+cmd_/workspace/test/blk/blk.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-358.el6.x86_64/scripts/module-common.lds --build-id -o /workspace/test/blk/blk.ko.unsigned /workspace/test/blk/blk.o /workspace/test/blk/blk.mod.o 
